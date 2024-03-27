@@ -1,0 +1,16 @@
+x = {10,20,40,60,90,80,70}
+print(x)
+y = {10,20,40,60}
+print(y)
+print(x.difference(y))
+print(x.isdisjoint(y))
+print(x.issubset(y))
+print(x.issuperset(y))
+print(x.symmetric_difference(y))
+print(x.difference(y))
+x.update([77,88,99])
+print(x)
+z=x.copy()
+print(z)
+x.clear()
+print(x)

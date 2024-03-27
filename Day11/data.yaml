@@ -1,0 +1,29 @@
+- id: 1
+  name: John
+  age: 30
+  address:
+    city: New York
+    country: USA
+  emails:
+    - john@example.com
+    - john.doe@example.com
+
+- id: 2
+  name: Alice
+  age: 25
+  address:
+    city: Los Angeles
+    country: USA
+  emails:
+    - alice@example.com
+
+- id: 3
+  name: Bob
+  age: 35
+  address:
+    city: Chicago
+    country: USA
+  emails:
+    - bob@example.com
+    - bob.doe@example.com
+    - bobby@example.com

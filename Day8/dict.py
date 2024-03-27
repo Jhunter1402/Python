@@ -1,0 +1,12 @@
+dict = {'name':'Ram','Age':25,"Gender":"M","mob.no":9876543210}
+print(dict)
+x = dict.items()
+print(x)
+print(dict.keys())
+print(dict.values())
+dict.update({'address':'Miyapur'})
+newdict = dict.copy()
+print(newdict)
+print(dict)
+print(newdict.pop("Gender"))
+print(newdict)
